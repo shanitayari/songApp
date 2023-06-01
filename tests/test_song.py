@@ -1,5 +1,6 @@
 from logics.logic import Logic
 from tests import data
+import pytest
 def test_addUser(deleteUsers):
     response=Logic.addUser(data.user["user_name"],data.user["user_password"])
     assert response.status_code==200
