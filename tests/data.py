@@ -1,0 +1,16 @@
+user={
+    "user_name":"a",
+    "user_password":"b",
+    "friends":[],
+    "playlists":[]
+}
+song={
+    "genre":"a",
+    "performer":"b",
+    "title":"c",
+    "year":1,
+    "rating":0
+}
+playlist={
+    "playlist_name":"c"
+}
